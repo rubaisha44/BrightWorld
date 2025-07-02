@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BRIGHTWORLD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+   <style>
+       .navbar {
+       
+            position: fixed;
+            width: 100%;
+            height: 12%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            z-index: 50;
+            padding: 4%;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            /* padding: 10px; */
+            text-align: center;
+            position: fixed;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: black;
+            box-sizing: border-box;
+        }
+        
+        .nav-link:hover {
+            color: rgb(248, 83, 22);
+        }
+        
+        
+        .navbar-toggler {
+            margin-right: 20%;
+            /* height: 50%; */
+        }
+        
+        .collapse {
+            justify-content: space-between;
+        }
+      
+  /* New: Override the collapse to slide in from the right */
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      height: 100%;
+      width: 250px;
+      background-color: #f8f9fa; /* Light background */
+      padding: 2rem 1rem;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+      transition: right 0.3s ease-in-out;
+      z-index: 1050;
+    }
+
+    .navbar-collapse.show {
+      right: 0;
+    }
+
+    .navbar-toggler {
+      border: none;
+      background-color: transparent;
+    }
+
+    .navbar-toggler-icon {
+      filter: invert(50%);
+    }
+  }
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo_bw-removebg-preview.png" width="120" height="110" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="categories.html">Collection</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop1.html">SHOP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="feedback.html">FEEDBACK</a>
+        </li>
+       
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+      </ul>
+
+     <!-- Cart Button (trigger) -->
+<button class="btn position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartPanel" aria-controls="cartPanel">
+  <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3243378/shopping-cart-solid-icon-md.png"
+    width="30" height="25">
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    0
+  </span>
+</button>
+
+    </div>
+  </div>
+</nav>
+</header>
+<section>
+ <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="align-items: center; max-width: 100%; min-width: 100%;">
+            <!-- <div class="container"> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://ae01.alicdn.com/kf/S03d28a36e28743db87cb88a06bfbf587m/Modern-Luxury-Crystal-Ceiling-Lamps-Circular-Round-Chrome-Color-Nordic-LED-Lights-Kitchen-for-Bedroom-Living.jpg" class="d-block w-100" style="height: 500px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.lifehack.org/wp-content/uploads/2016/11/07152621/Image-11.jpg" class="d-block w-100" style="height: 500px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/629434366/photo/small-solar-garden-light-lantern-in-flower-bed-garden-design.jpg?s=612x612&w=0&k=20&c=JDKIfPRgq1KhJmXFuwPTIEwYkT0yjTjcpOlCTnDsVTE=" class="d-block w-100" style="height: 500px;">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <BR>
+    <BR>
+
+    <h1 style="text-align: center;">LED LIGHTS</h1>
+    <div class="container-sm" style="text-align: center;">
+        <p style="padding-left: 10%; padding-right: 10%;">Bright world presents the best and high-quality LED lights. This is one of the leading and high-quality Fancy LED lights provider all over the world. The company is serving over a decade and providing LED lights to Commercial and Restaurant sectors
+            all over the world. We recently introduced our Bright world website for e-shopping.
+
+        </p>
+
+
+    </div>
+    <br>
+
+
+    <h1 style="text-align: center;">HOME ACCENTS</h1>
+    <div class="container-sm" style="text-align: center;">
+        <p style="padding-left: 10%; padding-right: 10%;"> At Bright World, we understand the importance of quality lighting. That's why we offer a wide range of LED lights that are not only energy-efficient but also long-lasting. Whether you are looking for LED bulbs, LED tube lights, or LED strip lights,
+            we have got you covered.
+        </P>
+        <div class="home-shop-btn">
+            <a class="btn btn-danger" href="shop1.html" >Shop Now</a>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="menu" style="text-align: center;">
+   <div class="container d-flex justify-content-center ">
+
+        <div class="container text-center" style=" padding-left: 10%;">
+            <div class="row row-cols-1 row-cols-md-3 g-4" >
+                <div class="col">
+            <div class="card " style="width: 18rem;">
+                <a href="categories.html"><img src="https://www.darklightdesign.com/media/15112/deccg-wall-light-3.jpg?anchor=center&mode=crop&width=1060&height=1060&rnd=132458477890000000" class="card-img">
+                </a>
+                <div class="card-img-top">
+                    <h5 class="card-title">INDOOR LIGHTS</h5>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container text-center" style="padding-left: 5%; padding-right: 5%;"> -->
+           
+        <div class="col">
+            <div class="card " style="width: 18rem;">
+                <a href="categories.html"><img src="https://falconlights.pk/wp-content/uploads/2023/03/Outdoor-LED-Solar-Light-Waterproof-Wall-Lamp.jpg" class="card-img">
+                </a>
+                <div class="card-img-top">
+                    <h5 class="card-title">OUTDOOR LIGHTS</h5>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container text-center" style="padding-right: 10%;"> -->
+         <div class="col">
+            <div class="card " style="width: 18rem;">
+                <a href="categories.html"><img src="https://falconlights.pk/wp-content/uploads/2023/01/Modern-LED-Adjustable-Wall-Lamp-for-Mirror-Picture-or-Dressing-6.jpg" class="card-img">
+                </a>
+                <div class="card-img-top">
+                    <h5 class="card-title">BATH AND DRESSING LIGHTS</h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+ 
+    <div class="row row-cols-1 row-cols-md-3 g-4">            
+        <div class="col">
+            <div class="card " style="width: 18rem;">
+                <a href="categories.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHWLCZmrrrsw0V1vqgCj1fzCOwYGGk1A9tKtz_WQHu2GdLC7luhmyc-gtfbDGjF-5WCw&usqp=CAU" class="card-img">
+                </a>
+                <div class="card-img-top">
+                    <h5 class="card-title">WALL LIGHTING</h5>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container text-center" style="padding-left: 6%; padding-right: 6%;"> -->
+            <div class="col">
+            <div class="card " style="width: 18rem;">
+                <a href="categories.html"><img src="data:image/jpeg;base64,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"
+                        class="card-img">
+                </a>
+                <div class="card-img-top">
+                    <h5 class="card-title">KITCHEN LIGHTS</h5>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container text-center" style="padding-right: 12%;"> -->
+            <div class="col">
+            <div class="card " style="width: 18rem;">
+                <a href="categories.html"><img src="https://img.fruugo.com/product/3/96/879220963_max.jpg" class="card-img">
+                </a>
+                <div class="card-img-top">
+                    <h5 class="card-title">SOLAR LIGHTS</h5>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+
+    
+    <footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container text-md-left">
+    <div class="row text-md-left">
+      <!-- About Section -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Bright World</h5>
+        <p>
+          We bring the best lighting and interior decor solutions for your space. Trusted by thousands across Pakistan.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+        <p><a href="index.html" class="text-white" style="text-decoration: none;">Home</a></p>
+        <p><a href="categories.html" class="text-white" style="text-decoration: none;">Collection</a></p>
+        <p><a href="shop1.html" class="text-white" style="text-decoration: none;">Shop</a></p>
+        <p><a href="feedback.html" class="text-white" style="text-decoration: none;">Feedback</a></p>
+        <p><a href="contact.html" class="text-white" style="text-decoration: none;">Contact Us</a></p>
+      </div>
+
+      <!-- Policies -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Policies</h5>
+        <p><a href="#" class="text-white" style="text-decoration: none;">Privacy Policy</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none;">Return Policy</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none;">Terms & Conditions</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none;">Shipping Policy</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none;">FAQs</a></p>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+        <p><i class="fas fa-home me-3"></i> Saddar, Karachi, Pakistan</p>
+        <p><i class="fas fa-envelope me-3"></i> brightworld@gmail.com</p>
+        <p><i class="fas fa-phone me-3"></i> 0305-5877004</p>
+      </div>
+    </div>
+
+    <hr class="mb-4">
+
+    <!-- Social Media Icons -->
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p>© 2025 <strong>BRIGHT WORLD</strong> - All Rights Reserved.</p>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-end">
+          <a href="https://www.facebook.com" target="_blank" class="text-white me-4">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-2019.svg" width="30" height="30" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="text-white">
+            <img src="https://cdn-icons-png.flaticon.com/512/3621/3621435.png" width="30" height="30" alt="Instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggler = document.querySelector(".navbar-toggler");
+    const menu = document.querySelector(".navbar-collapse");
+
+    toggler.addEventListener("click", function () {
+      menu.classList.toggle("show");
+    });
+  });
+</script>
+<!-- Bootstrap Offcanvas Cart Panel -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartPanel" aria-labelledby="cartPanelLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="cartPanelLabel">Your Cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Your cart is empty.</p>
+    <!-- You can later inject cart items here dynamically -->
+  </div>
+</div>
+
+
+
+</body>
+</html>
