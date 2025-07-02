@@ -53,21 +53,28 @@ HOME-index.html
 ![image](https://github.com/user-attachments/assets/8a408619-f9ae-4802-a308-a4c5fed936d5)
 
 COLLECTION-categories.html
+
 ![image](https://github.com/user-attachments/assets/5378bb10-37e6-4f5c-bb99-b3241196a8ed)
 ![image](https://github.com/user-attachments/assets/6fe4edf7-0fbb-4b74-abc4-66c3be452b8a)
 
 SHOP-shop1.html
+
 ![image](https://github.com/user-attachments/assets/3d0d1b37-cb01-46b0-b27a-039be2ad44f4)
 
 FEEDBACK-feedback.html
+
 ![image](https://github.com/user-attachments/assets/ff587729-418d-4d06-a5d2-308fbc956440)
 
 CONTACt US-contact.html
+
+
 ![image](https://github.com/user-attachments/assets/b99efb2f-863e-4713-ae4b-1c252d71690a)
 ![image](https://github.com/user-attachments/assets/2f6d4b46-dbee-432b-9ff8-b4545fdbc879)
 ![image](https://github.com/user-attachments/assets/d786696e-351c-4a36-9c4d-1a0ae056b10f)
 
-RESPONSIVENESS:
+RESPONSIVENESS OF PAGES 
+
+
 ![image](https://github.com/user-attachments/assets/50499f7c-bcdd-4e6f-983a-facdb8bdbd6d)
 ![image](https://github.com/user-attachments/assets/ae8783c0-e307-45b8-8b3b-17dd27ace097)
 ![image](https://github.com/user-attachments/assets/e6bcc4a6-326e-4d33-8a4d-46ce8e919d1f)
